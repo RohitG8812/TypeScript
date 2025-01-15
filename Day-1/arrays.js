@@ -75,5 +75,6 @@ let names2 = ["Alice", "Bob", "Anna", "Andrew", "Alex"];
 //? length greater than 4
 // let newArr: string[] = names2.filter((name) => name.length > 4);
 // console.log(newArr);
+//? names start with 'A'
 let newArr = names2.filter((name) => name.charAt(0) === "A");
 console.log(newArr);
