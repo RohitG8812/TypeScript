@@ -44,3 +44,27 @@ abstract class Shape {
 
 // const square1 = new Square("red", 5);
 // console.log(square1.printArea());
+
+//* for Rectangle
+class Rectangle extends Shape {
+  constructor(
+    protected color: string,
+    protected length: number,
+    protected width: number
+  ) {
+    super(color);
+  }
+
+  public calculateShape(): number {
+    return this.length * this.width;
+  }
+
+  public printArea(): string {
+    return `The Area of Rectangle is ${this.calculateShape()} and Color is ${
+      this.color
+    }`;
+  }
+}
+
+const rectangle1 = new Rectangle("yellow", 5, 5);
+console.log(rectangle1.printArea());
