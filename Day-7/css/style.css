@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  margin-top: 50%;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 2px;
+  background-color: whitesmoke;
+  border: 0.4px solid black;
+  font-size: 16px;
+  font-style: italic;
+  cursor: pointer;
+}
